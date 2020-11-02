@@ -204,19 +204,19 @@ aside {
     } */
 .face
 {
-    max-width: 4%;
-    height: auto;
+    width: 29px;
+    height: 29px;
 }
 .youtube
 {
-    max-width: 5%;
+    width: 35px;
     height: auto;
     padding-left: 5px;
     padding-right: 5px;
 }
 .enveloppe
 {
-    max-width: 5%;
+    width: 38px;
     
     height: auto;
 }
