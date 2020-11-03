@@ -30,18 +30,13 @@ body
 h1
     {
         font-family: 'Arial Black', Helvetica, sans-serif;
-        font-size: 80px;
+        font-size: 79px;
         font-weight: bold;
         color: #318ce7;
         text-align: center;
-        margin: 0px;
+        margin-top: -15px;
         font-style: italic;
-        position: absolute;
-width: 296px;
-height: 107px;
-left: 76px;
-top: 0px;
-line-height: 92px;
+        padding-left: 15px;
     }
 .accueil
 {
@@ -53,7 +48,7 @@ header
         display: flex;
         flex-direction: column-reverse;
         /* position: fixed; */
-        margin-left: 10%;
+        margin-left: 0;
         margin-top: 0;    
         order: 1;
         justify-content: center;
@@ -61,8 +56,15 @@ header
 
 
 #logo {
+    margin-top: -50px;
     width: 369px;
     height: 238px;
+}
+
+#menuToggle
+{
+    margin-top: -4px;
+    margin-left: -10px;
 }
 
 #brand {
