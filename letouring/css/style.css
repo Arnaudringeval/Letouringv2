@@ -28,7 +28,7 @@ body
 {
   text-decoration: none;
   color: #ffffff;
-  
+  font-weight: normal;
   transition: color 0.3s ease;
 }
 
@@ -120,7 +120,7 @@ body
   width: 300px;
   margin: -100px 0 0 -50px;
   padding: 50px;
-  padding-top: 125px;
+  padding-top: 105px;
   
   background: #cdcdcd;
   list-style-type: none;
@@ -135,8 +135,10 @@ body
 
 #menu li
 {
-  padding: 10px 0;
+  padding: 2px 0;
   font-size: 22px;
+  color: #ffffff;
+  font-weight: bold;
 }
 
 /*
