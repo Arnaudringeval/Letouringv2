@@ -193,20 +193,31 @@ header
 #main
 {
   z-index: 0;
-  margin: 300px 0 0 0;
+  margin: 300px 10px 0 10px;
   position: relative;
 }
+
 #intro
 {
   background-color: #318ce7bf;
   position: absolute;
   border-radius: 10px;
+  font-weight: bold;
+  font-size: 22px;
+  padding: 10px 10px 10px 10px;
+}
+
+.playlist
+{
+  height: 400px;
 }
 footer
 {
   display: flex;
   justify-content: center;
   width: 100%;
+  position: fixed;
+  bottom: 0;
 }
 
 #enveloppe
@@ -226,4 +237,17 @@ height: auto;
 {
   width: 29px;
   height: auto;
+}
+
+.affichage
+{
+  background-color: #318ce7bf;
+  position: absolute;
+  border-radius: 10px 10px 0 0;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 0px 5px 0px 5px;
+  margin: -20px 0 0 0;
+  right: 0;
+  color: #ffffff;
 }
