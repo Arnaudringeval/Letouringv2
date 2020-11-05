@@ -205,6 +205,7 @@ header
   font-weight: bold;
   font-size: 22px;
   padding: 10px 10px 10px 10px;
+  display: block;
 }
 
 .playlist
@@ -239,7 +240,7 @@ height: auto;
   height: auto;
 }
 
-.affichage
+#changer
 {
   background-color: #318ce7bf;
   position: absolute;
