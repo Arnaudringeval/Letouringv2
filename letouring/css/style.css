@@ -8,7 +8,6 @@ body
     background: #cdcdcd;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
 }
 #menuToggle
@@ -44,7 +43,7 @@ body
   cursor: pointer;
   
   opacity: 0; /* hide this */
-  z-index: 2; /* and place it over the hamburger */
+  z-index: 9; /* and place it over the hamburger */
   
   -webkit-touch-callout: none;
 }
@@ -57,13 +56,13 @@ body
   display: block;
   width: 33px;
   height: 4px;
-  margin-bottom: 5px;
+  margin: 0 0 5px 0;
   position: relative;
   
   background: #ffffff;
   border-radius: 3px;
   
-  z-index: 1;
+  z-index: 8;
   
   transform-origin: 4px 0px;
   
@@ -119,9 +118,7 @@ body
   position: absolute;
   width: 300px;
   margin: -100px 0 0 -50px;
-  padding: 50px;
-  padding-top: 105px;
-  
+  padding: 105px 64px 0 50px;
   background: #cdcdcd;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
@@ -147,4 +144,66 @@ body
 #menuToggle input:checked ~ ul
 {
   transform: none;
+}
+
+#logo
+{
+  width: 369px;
+  height: 238px;
+  margin: -50px 0 0 0;
+}
+h1
+{
+  font-family: 'Arial black', Helvetica, sans-serif;
+  color: #318ce7;
+  font-size: 75px;
+  margin: -20px 0 0 60px;
+}
+.namea
+{
+  display: none;
+}
+header
+{
+  display: flex;
+  flex-direction: column-reverse;
+  position: fixed;
+  background-color: #cdcdcd;
+  padding-right: 7px;
+}
+#menus
+{
+  display: none;
+}
+.main
+{
+  position: relative;
+  z-index: 0;
+}
+
+
+
+footer
+{
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+#enveloppe
+{
+width: 38px;
+height: auto;
+}
+
+#youtube
+{
+  width: 38px;
+  height: auto;
+  margin: 0 5px 0 5px;
+}
+
+#face
+{
+  width: 29px;
+  height: auto;
 }
