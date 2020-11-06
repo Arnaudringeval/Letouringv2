@@ -225,7 +225,15 @@ header
   display: flex;
   justify-content: center;
 }
-
+.maina
+{
+  z-index: 0;
+  margin: 330px 5px 0 5px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
 #intro
 {
   background-color: #318ce7bf;
@@ -239,6 +247,7 @@ header
 
 .playlist
 {
+  width: 100%;
   height: 400px;
 }
 footer
@@ -284,11 +293,11 @@ height: auto;
 
 .moteur
 {
-  width: 370px;
+  width: 365px;
   height: auto;
 }
 img
 {
-  width: 370px;
+  width: 365px;
   height: auto;
 }
