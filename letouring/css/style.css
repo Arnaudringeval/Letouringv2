@@ -147,11 +147,18 @@ body
   transform: none;
 }
 
-#logo
+#logoa
 {
   width: 369px;
   height: 238px;
   margin: -50px 0 0 0;
+}
+#logob
+{
+  width: 369px;
+  height: 238px;
+  margin:  -20px 0 -20px 0;
+  order: 1;
 }
 h1
 {
@@ -182,9 +189,20 @@ h1
         font-family: Arial, Helvetica, sans-serif;
         display: block;
         font-size: 35px;
-        padding-bottom: 10px;
+        padding: -5px 0 0 5px;
     }
-
+h3
+{
+  color: #318ce7;
+  font-family: Arial, Helvetica, sans-serif;
+  display: block;
+  font-size: 35px;
+  padding: 0 0 10px 0;
+}
+.brand
+{
+  text-align: center;
+}
 header
 {
   display: flex;
@@ -204,6 +222,8 @@ header
   z-index: 0;
   margin: 300px 10px 0 10px;
   position: relative;
+  display: flex;
+  justify-content: center;
 }
 
 #intro
@@ -260,4 +280,15 @@ height: auto;
   margin: -20px 0 0 0;
   right: 0;
   color: #ffffff;
+}
+
+.moteur
+{
+  width: 370px;
+  height: auto;
+}
+img
+{
+  width: 370px;
+  height: auto;
 }
