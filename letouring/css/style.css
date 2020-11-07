@@ -202,6 +202,7 @@ h3
   display: block;
   font-size: 35px;
   padding: 0 0 10px 0;
+  margin: 285px auto 0 auto;
 }
 .brand
 {
@@ -233,7 +234,7 @@ main
 .maina
 {
   z-index: 0;
-  margin: 363px 0 0 0;
+  margin: 0px 0 0 0;
   position: relative;
   display: flex;
   justify-content: center;
@@ -325,7 +326,7 @@ img
 .intromoteurs
 {
   padding: 10px 0 0 0;
-  margin: 0 auto 0 auto;
+  margin: 20px auto 0 auto;
   width: 365px;
 }
 #article1
@@ -412,4 +413,57 @@ p
 .form
 {
   padding: 8px 0 0 0;
+}
+@media screen and (min-width: 376px) and (max-width: 834px)
+{
+header
+{
+  display: flex;
+  flex-direction: row;
+}
+.namea
+{
+  color: #318ce7;
+  font-family: Arial, Helvetica, sans-serif;
+  display: block;
+  font-size: 35px;
+}
+#logoa
+{
+  margin: -20px 0 0 0;
+}
+#logob
+{
+  margin: -20px 0 0 0;
+}
+#titrea
+{
+  margin: 0 0 0 0;
+}
+#titreb
+{
+  display: block;
+  font-size: 75px;
+}
+#changer
+{
+  display: none;
+}
+#intro
+{
+  background-color: #318ce7;
+  border-radius: 10px 10px 0 0;
+}
+.playlist
+{
+  padding: 202px 0 0 0;
+}
+main
+{
+  margin: 270px 10px 0 10px;
+}
+#logolien
+{
+  order: inherit;
+}
 }
