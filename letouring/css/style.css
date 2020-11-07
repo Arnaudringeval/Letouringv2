@@ -10,6 +10,7 @@ body
     flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
     color: #ffffff;
+    position: relative;
 }
 #menuToggle
 {
@@ -153,12 +154,15 @@ body
   height: 238px;
   margin: -50px 0 0 0;
 }
+#logolien
+{
+  order: 1;
+}
 #logob
 {
   width: 369px;
   height: 238px;
   margin:  -20px 0 -20px 0;
-  order: 1;
 }
 h1
 {
@@ -217,22 +221,34 @@ header
 {
   display: none;
 }
-#main
+main
 {
   z-index: 0;
-  margin: 300px 10px 0 10px;
+  margin: 300px 5px 0 5px;
   position: relative;
   display: flex;
   justify-content: center;
+
 }
 .maina
 {
   z-index: 0;
-  margin: 330px 5px 0 5px;
+  margin: 363px 0 0 0;
   position: relative;
   display: flex;
   justify-content: center;
   flex-direction: column;
+  bottom: 40px;
+}
+.mainb
+{
+  z-index: 0;
+  margin: 403px 0 0 0;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  bottom: 40px;
 }
 #intro
 {
@@ -255,10 +271,17 @@ footer
   display: flex;
   justify-content: center;
   width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+#footeraccueil
+{
+  display: flex;
+  justify-content: center;
+  width: 100%;
   position: fixed;
   bottom: 0;
 }
-
 #enveloppe
 {
 width: 38px;
@@ -291,13 +314,55 @@ height: auto;
   color: #ffffff;
 }
 
-.moteur
+img
 {
+  margin: 0 auto 0 auto;
   width: 365px;
   height: auto;
 }
-img
+.intromoteurs
 {
+  padding: 10px 0 0 0;
+  margin: 0 auto 0 auto;
   width: 365px;
-  height: auto;
+}
+#article1
+{
+  display: none;
+}
+#baybee
+{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto 0 auto;
+}
+#titrearticle
+{
+  margin: 20px 0 0 0;
+  font-size: 25px;
+  color: #318ce7;
+  text-align: center;
+  font-weight: bold;
+}
+#montrer
+{
+  background-color: #318ce7bf;
+  border-radius: 10px 10px 0 0;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 0px 5px 0px 5px;
+  margin: 0 auto 0 auto;
+  color: #ffffff;
+  width: 365px;
+}
+.lientexte
+{
+  font-style: italic;
+  color: #ffffff;
+  font-weight: bold;
+}
+p
+{
+  padding: 10px;
 }
