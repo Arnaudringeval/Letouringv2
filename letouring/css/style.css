@@ -303,15 +303,17 @@ height: auto;
 
 #changer
 {
-  background-color: #318ce7bf;
+  background-color: #318ce7;
   position: absolute;
   border-radius: 10px 10px 0 0;
   font-weight: bold;
   font-size: 16px;
-  padding: 0px 5px 0px 5px;
+  padding: 2px 5px 0px 5px;
   margin: -20px 0 0 0;
   right: 0;
   color: #ffffff;
+  border: 0 solid;
+  width: 55px;
 }
 
 img
@@ -355,6 +357,7 @@ img
   margin: 0 auto 0 auto;
   color: #ffffff;
   width: 365px;
+  border: 0 solid;
 }
 .lientexte 
 {
@@ -365,4 +368,48 @@ img
 p
 {
   padding: 10px;
+}
+#envoieform
+{
+  background-color: #cdcdcd;
+  border-radius: 10px;
+  border: 0 solid;
+  font-size: 16px;
+  padding: 5px 5px 5px 5px;
+  margin: 5px 0 0 auto;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.75)
+}
+#formulaire
+{
+  z-index: 0;
+  margin: 30px auto 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  bottom: 40px;
+  width: 200px;
+}
+#nom
+{
+   padding: 5px 0 5px 0;
+   border: 0 solid;
+}
+#email
+{
+  padding: 5px 0 5px 0;
+  border: 0 solid;
+}
+#sujet
+{
+  padding: 5px 0 5px 0;
+  border: 0 solid;
+}
+#message
+{
+  padding: 5px 0 0 0;
+  border: 0 solid;
+}
+.form
+{
+  padding: 8px 0 0 0;
 }
