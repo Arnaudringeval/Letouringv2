@@ -12,7 +12,7 @@ function  cache()
     }
   }
 
-  function  affiche()
+function  affiche()
   {
     if (document.getElementById('montrer').innerHTML == 'montrer')
     {

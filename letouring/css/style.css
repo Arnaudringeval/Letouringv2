@@ -203,6 +203,7 @@ h3
   font-size: 35px;
   padding: 0 0 10px 0;
   margin: 285px auto 0 auto;
+  text-align: center;
 }
 .brand
 {
@@ -451,19 +452,50 @@ header
 }
 #intro
 {
+  position: inherit;
   background-color: #318ce7;
   border-radius: 10px 10px 0 0;
 }
 .playlist
 {
-  padding: 202px 0 0 0;
+  padding: 0 0 0 0;
 }
 main
 {
+  display: flex;
+  flex-direction: column;
   margin: 270px 10px 0 10px;
 }
 #logolien
 {
   order: inherit;
 }
+.maina
+{
+  width: 650px;
+   margin: 0 auto 0 auto;
+}
+img
+{
+  width: 650px;
+  height: auto;
+}
+#montrer
+{
+  width: 650px;
+}
+h3
+{
+  margin: 255px auto 0 auto;
+}
+p
+{
+  padding: 10px 0 10px 0;
+}
+#formulaire
+{
+  margin: 90px auto 0 auto;
+}
+
+
 }
