@@ -25,3 +25,17 @@ function  affiche()
       document.getElementById('article1').style.display= 'none'
     }
   }
+
+  function  affiche2()
+  {
+    if (document.getElementById('montrer2').innerHTML == 'montrer')
+    {
+      document.getElementById('montrer2').innerHTML = 'cacher';
+      document.getElementById('article2').style.display= 'block';
+    }
+    else
+    {
+      document.getElementById('montrer2').innerHTML = 'montrer'
+      document.getElementById('article2').style.display= 'none'
+    }
+  }
