@@ -15,6 +15,13 @@ body
 #h3
 {
   display: none;
+  color: #318ce7;
+  font-family: Arial, Helvetica, sans-serif;
+  display: block;
+  font-size: 35px;
+  padding: 0 0 10px 0;
+  margin: 0 auto 0 auto;
+  text-align: center;
 }
 #menuToggle
 {
@@ -166,7 +173,7 @@ body
 {
   width: 369px;
   height: 238px;
-  margin:  -20px 0 -20px 0;
+  margin:  0px 0 0px 0;
 }
 h1
 {
@@ -203,14 +210,14 @@ h1
   font-size: 35px;
   padding: -5px 0 0 5px;
 }
-h3
+#h3autre
 {
   color: #318ce7;
   font-family: Arial, Helvetica, sans-serif;
   display: block;
   font-size: 35px;
-  padding: 0 0 10px 0;
-  margin: 285px auto 0 auto;
+  padding: 0 0 0 0;
+  margin: 0 auto 0 auto;
   text-align: center;
 }
 .brand
@@ -223,7 +230,7 @@ header
   flex-direction: column-reverse;
   position: fixed;
   background-color: #cdcdcd;
-  padding-right: 7px;
+  padding: 0 7px 0 0;
   z-index: 7;
   color: #318ce7;
 }
@@ -234,7 +241,7 @@ header
 main
 {
   z-index: 0;
-  margin: 300px 5px 0 5px;
+  margin: 310px 5px 0 5px;
   position: relative;
   display: flex;
   justify-content: center;
@@ -242,7 +249,7 @@ main
 .maina
 {
   z-index: 0;
-  margin: 0px 0 0 0;
+  margin: 400px 0 0 0;
   position: relative;
   display: flex;
   justify-content: center;
@@ -252,7 +259,7 @@ main
 .mainb
 {
   z-index: 0;
-  margin: 403px 0 0 0;
+  margin: 435px 0 0 0;
   position: relative;
   display: flex;
   justify-content: center;
@@ -335,14 +342,14 @@ img
 .intromoteurs
 {
   padding: 10px 0 0 0;
-  margin: 20px auto 0 auto;
+  margin: 0px auto 0 auto;
   width: 365px;
 }
 #article1
 {
   display: none;
 }
-#baybee
+#baybee, #hw10bl120
 {
   display: flex;
   justify-content: center;
@@ -361,37 +368,20 @@ img
 {
   display: none;
 }
-#hw10bl120
-{
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  margin: 0 auto 0 auto;
-}
-#montrer
+
+#montrer, #montrer2
 {
   background-color: #318ce7bf;
-  border-radius: 10px 10px 0 0;
+  border-radius: 10px;
   font-weight: bold;
   font-size: 16px;
-  padding: 0px 5px 0px 5px;
+  padding: 5px;
   margin: 0 auto 0 auto;
   color: #ffffff;
   width: 365px;
   border: 0 solid;
 }
-#montrer2
-{
-  background-color: #318ce7bf;
-  border-radius: 10px 10px 0 0;
-  font-weight: bold;
-  font-size: 16px;
-  padding: 0px 5px 0px 5px;
-  margin: 0 auto 0 auto;
-  color: #ffffff;
-  width: 365px;
-  border: 0 solid;
-}
+
 .lientexte 
 {
   font-style: italic;
@@ -502,24 +492,20 @@ main
 .maina
 {
   width: 650px;
-   margin: 0 auto 0 auto;
+  margin: 270px auto 0 auto;
 }
 img
 {
   width: 650px;
   height: auto;
 }
-#montrer
+#montrer, #montrer2
 {
   width: 650px;
 }
-#montrer2
+#h3autre
 {
-  width: 650px;
-}
-h3
-{
-  margin: 255px auto 0 auto;
+  margin: 0 auto 0 auto;
 }
 p
 {
@@ -536,10 +522,7 @@ p
 
 @media screen and (min-width: 1025px)
 {
-  #h3
-  {
-    display: inherit;
-  }
+  /* MENUS */
   #menu1
   {
     display: none;
@@ -549,12 +532,14 @@ p
       display: flex;
       justify-content: space-between;
       text-align: center;
-      margin: -75px 0 0 0;
-      left: 0;
+      margin: 228px 0 0 0;
+      left: 10%;
       right: 0;
       font-family: Arial, Helvetica, sans-serif;
       position: fixed;
-      padding: 0 5px 0 5px;
+      padding: 0 0 0 0;
+      width: 80%;
+      background-color: #cdcdcd;
   }
   #menus ul
   {
@@ -631,16 +616,19 @@ nav
 {
   z-index: 500;
 }
+/* FIN MENUS */
+
+
 #logoa
 {
-  margin: -10px 0 0 auto;
+  margin: 0px 0 0 auto;
   
 }
 #logolien
 {
   order: inherit;
   margin: 0 0 0 auto;
-  padding: 10px 0 0 0;
+  padding: 0px 0 0 0;
 }
 #titrea
 {
@@ -654,11 +642,15 @@ margin: 0 0 0 0;
 {
   display: block;
 }
+.namea, .nameb
+{
+  padding: 0 0 0 0;
+}
 header
 {
   display: flex;
   flex-direction: row;
-  padding: inherit;
+  padding: 0 0 0 0;
   width: 100%;
 }
 .brand
@@ -667,9 +659,73 @@ header
 }
 main
 {
-  margin: inherit;
+  z-index: 0;
+  margin: 256px 0 0 0;
+  position: relative;
+  display: flex;
+  justify-content: center;
 }
-
-
+.maina, .mainb
+{
+    margin: 285px auto 0 auto;
+    width: 80%;
+}
+#intro
+    {
+        position: absolute;
+        left: 0px;
+        margin-top: 50px;
+        width: 200px;
+        margin-left: 10%;
+        background-color: #318ce7bf;
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 16px;
+        min-height: inherit;
+    }
+.playlist
+{
+  width: 80%;
+  height: 650px;
+}
+#changer
+{
+  background-color: #318ce7;
+  position: absolute;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 2px 5px 0px 5px;
+  margin: 50px 0 0 -55px;
+  left: 10%;
+  color: #ffffff;
+  border: 0 solid;
+  width: 55px;
+  height: 30px;
+}
+#h3autre
+{
+  margin: 0 auto 0 auto;
+  padding-top: 20px;
+}
+#h3
+{
+  display: inherit;
+  margin: 0 auto 0 auto;
+  padding-top: 20px;
+}
+.intromoteurs
+{
+  padding-top: 20px;
+}
+img
+{
+  width: 100%;
+  height: auto;
+}
+#montrer, #montrer2
+{
+  width: 50%;
+}
 
 }
