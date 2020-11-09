@@ -9,7 +9,7 @@ body
     display: flex;
     flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
-    color: #ffffff;
+    
     position: relative;
 }
 #h3
@@ -275,6 +275,7 @@ main
   padding: 10px;
   display: block;
   min-height: 400px;
+  color: #ffffff;
 }
 
 .playlist
