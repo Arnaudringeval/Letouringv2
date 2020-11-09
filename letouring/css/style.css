@@ -246,7 +246,7 @@ main
   display: flex;
   justify-content: center;
 }
-.maina
+.maina, #mainb
 {
   z-index: 0;
   margin: 400px 0 0 0;
@@ -256,14 +256,13 @@ main
   flex-direction: column;
   bottom: 40px;
 }
+.maina
+{
+  margin: 400px 0 0 0;
+}
 .mainb
 {
-  z-index: 0;
   margin: 435px 0 0 0;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
   bottom: 40px;
 }
 #intro
@@ -273,7 +272,7 @@ main
   border-radius: 10px;
   font-weight: bold;
   font-size: 22px;
-  padding: 10px 10px 10px 10px;
+  padding: 10px;
   display: block;
   min-height: 400px;
 }
@@ -345,7 +344,7 @@ img
   margin: 0px auto 0 auto;
   width: 365px;
 }
-#article1
+#article1, #article2
 {
   display: none;
 }
@@ -364,14 +363,10 @@ img
   text-align: center;
   font-weight: bold;
 }
-#article2
-{
-  display: none;
-}
 
 #montrer, #montrer2
 {
-  background-color: #318ce7bf;
+  background-color: #318ce7;
   border-radius: 10px;
   font-weight: bold;
   font-size: 16px;
@@ -557,7 +552,7 @@ p
   #menus li
     {
         display: inline-block;
-        background-color: #318ce7bf;
+        background-color: #318ce7;
         padding: 5px 0 5px 0;
         color: #ffffff;
         font-weight: bold;
@@ -621,14 +616,14 @@ nav
 
 #logoa
 {
-  margin: 0px 0 0 auto;
+  margin: 0 0 0 auto;
   
 }
 #logolien
 {
   order: inherit;
   margin: 0 0 0 auto;
-  padding: 0px 0 0 0;
+  padding: 0 0 0 0;
 }
 #titrea
 {
@@ -671,18 +666,16 @@ main
     width: 80%;
 }
 #intro
-    {
-        position: absolute;
+    {  
         left: 0px;
         margin-top: 50px;
         width: 200px;
-        margin-left: 10%;
-        background-color: #318ce7bf;
-        padding: 10px;
-        border-radius: 10px;
+        margin-left: 10%;        
         font-size: 16px;
         min-height: inherit;
+        border-radius: 10px 10px 10px 0;
     }
+    
 .playlist
 {
   width: 80%;
@@ -690,18 +683,11 @@ main
 }
 #changer
 {
-  background-color: #318ce7;
-  position: absolute;
-  border-radius: 10px;
-  font-weight: bold;
-  font-size: 16px;
-  padding: 2px 5px 0px 5px;
-  margin: 50px 0 0 -55px;
+  background-color: #318ce7bf;
+  margin: 412px 0 0 0;
   left: 10%;
-  color: #ffffff;
-  border: 0 solid;
-  width: 55px;
   height: 30px;
+  border-radius: 0 0 10px 10px;
 }
 #h3autre
 {
@@ -716,7 +702,9 @@ main
 }
 .intromoteurs
 {
-  padding-top: 20px;
+  text-align: center;
+  width: 100%;
+  padding: 20px 0 0 0;
 }
 img
 {
@@ -726,6 +714,10 @@ img
 #montrer, #montrer2
 {
   width: 50%;
+}
+#formulaire
+{
+  margin: 90px auto 0 auto;
 }
 
 }
