@@ -148,12 +148,16 @@ body {
 }
 
 #logoa {
+    left: auto;
+    right: auto;
     width: 369px;
     height: 238px;
     margin: -50px 0 0 0;
 }
 
 #logolien {
+    display: flex;
+    justify-content: center;
     order: 1;
 }
 
@@ -221,6 +225,10 @@ header {
     padding: 0 7px 0 0;
     z-index: 7;
     color: #318ce7;
+}
+
+#header {
+    align-self: center;
 }
 
 #menus {
@@ -587,6 +595,7 @@ p {
         flex-direction: row;
         padding: 0 0 0 0;
         width: 100%;
+        justify-content: center;
     }
     .brand {
         margin: 10px auto 0 0;
