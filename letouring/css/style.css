@@ -13,7 +13,7 @@ body {
 
 #h3 {
     display: none;
-    color: #318ce7;
+    color: #2375c7;
     font-family: Arial, Helvetica, sans-serif;
     display: block;
     font-size: 35px;
@@ -184,7 +184,7 @@ h1 {
 
 .accueil {
     text-decoration: none;
-    color: #318ce7;
+    color: #2375c7;
 }
 
 .namea {
@@ -197,14 +197,14 @@ h1 {
 
 .namea,
 .nameb {
-    color: #318ce7;
+    color: #2375c7;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 35px;
     padding: -5px 0 0 5px;
 }
 
 #h3autre {
-    color: #318ce7;
+    color: #2375c7;
     font-family: Arial, Helvetica, sans-serif;
     display: block;
     font-size: 35px;
@@ -224,7 +224,7 @@ header {
     background-color: #cdcdcd;
     padding: 0 7px 0 0;
     z-index: 7;
-    color: #318ce7;
+    color: #2375c7;
 }
 
 #header {
@@ -264,7 +264,7 @@ main {
 }
 
 #intro {
-    background-color: #318ce7bf;
+    background-color: #2375c7bf;
     position: absolute;
     border-radius: 10px;
     font-weight: bold;
@@ -313,7 +313,7 @@ footer {
 }
 
 #changer {
-    background-color: #318ce7;
+    background-color: #2375c7;
     position: absolute;
     border-radius: 10px 10px 0 0;
     font-weight: bold;
@@ -354,14 +354,14 @@ img {
 #titrearticle {
     margin: 20px 0 0 0;
     font-size: 25px;
-    color: #318ce7;
+    color: #2375c7;
     text-align: center;
     font-weight: bold;
 }
 
 #montrer,
 #montrer2 {
-    background-color: #318ce7;
+    background-color: #2375c7;
     border-radius: 10px;
     font-weight: bold;
     font-size: 16px;
@@ -452,7 +452,7 @@ p {
     }
     #intro {
         position: inherit;
-        background-color: #318ce7;
+        background-color: #2375c7;
         border-radius: 10px 10px 0 0;
         min-height: inherit;
     }
@@ -524,7 +524,7 @@ p {
     }
     #menus li {
         display: inline-block;
-        background-color: #318ce7;
+        background-color: #2375c7;
         padding: 5px 0 5px 0;
         color: #ffffff;
         font-weight: bold;
@@ -626,7 +626,7 @@ p {
         height: 650px;
     }
     #changer {
-        background-color: #318ce7bf;
+        background-color: #2375c7bf;
         margin: 412px 0 0 0;
         left: 10%;
         height: 30px;
